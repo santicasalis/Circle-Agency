@@ -1,0 +1,153 @@
+/* Import fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    
+}
+body{
+    background-color: #f2f4fc;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    
+}
+      /* header */
+header {
+    
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        height: 50px;
+        padding: 1em;
+}
+
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+     
+   
+      
+      /* FIN HEADER */
+      
+      /* SECTION ONE */
+  #section-one{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .container-section-one{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+    max-width: 700px;
+  }
+  .container-section-one h1{
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+
+
+  .circle-section-one {
+    max-width: 600px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.3;
+    margin: 0 auto;
+  }
+
+  .button-section-one a{
+    text-decoration: none;
+  }
+  .button-get{
+  background-color:#072ac8;
+  font-size: 17px;
+  padding: 0.5em 1em;
+  color: white;
+  font-weight: bold;
+
+}
+.button-get:hover{
+    background-color: #1e1f21;
+}
+
+.button-see{
+    color: #6b708d;
+    font-size: 17px;
+    font-weight: 800;
+}
+
+
+ 
+  #section-one-image{
+    text-align: center;
+  }
+  .hero-image{
+    width: 80%;
+    max-width: 767px;
+  }
+
+  .card-2 {
+    max-width: 479px;
+  }
+
+
+      /* FIN SECTION ONE */
+
+      /* SECTION - LOGOS  */
+  .logos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+  }
+  .logos img {
+    max-width: 100%;
+    vertical-align: middle;
+    display: inline-block;
+  }
+
+
+  /* FIN SECTION - LOGOS  */
+
+    /* SECTION RECENTS PROYECTS */
+
+  .cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+
+  /* FIN SECTION RECENTS PROYECTS */
+
+
+    /* SECTION CLIENTES  */
+  #clients{
+    background-color: #292e47;
+  }
+
+  #clients img{
+    height: 50px;
+  }
+ 
+   /* FIN SECTION CLIENTES  */
+
+    /* SECTION CLIENTES  */
+
+  #questions{
+    background-color: #ffc600;
+  }
+
+   /* SECTION CLIENTES  */
