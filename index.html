@@ -131,12 +131,16 @@
 <section id="questions">
  
     <h1 class="">Do you have any questions?</h1>
-    <div class="">Let us help you!</div>
-    <div class="">
+    <div class="subtitle">Let us help you!</div>
+    <div class="form-container">
      <form  aria-label="Email Form">
-        <input type="email"  maxlength="256"  placeholder="Enter your email"  required="">
-    
-        <input type="submit" value="Suscribe" data-wait="Please wait..." class="button primary-button cta-button w-button">
+        <form id="email-form" name="email-form" data-name="Email Form" method="get" class="cta-form" aria-label="Email Form">
+            <div class="cta-textfield-wrapper">
+                <div class="textfield-icon"></div>
+                <input type="email" class="text-field w-input" maxlength="256" name="email-2" data-name="Email 2" placeholder="Enter your email" id="email-2" required="">
+            </div>
+            <input type="submit" value="Suscribe" data-wait="Please wait..." class="button primary-button cta-button w-button">
+        </form>
       </form>
     </div>
 
@@ -148,17 +152,18 @@
 
 
 <footer>
-<div>
+<div class="foot">
 <div><img src="project-assets/logos/circle.svg" alt="circle logo"></div>
-<div> <direction>2972 Westheimer Rd. Santa Ana, Illinois 85486</direction>    </div>
+<div class="direction">2972 Westheimer Rd. Santa Ana, Illinois 85486   </div>
 </div>
+<div class="footer-links">
 <a href="" class="footer-link">Team</a>
 <a href="" class="footer-link">Services</a>
 <a href="" class="footer-link">About Us</a>
 <a href="" class="footer-link">Press</a>
 <a href="" class="footer-link">Projects</a>
 <a href="" class="footer-link">Privacy Policy</a>
-
+</div>
 <div>
 
 </div>

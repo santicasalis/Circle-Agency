@@ -450,6 +450,117 @@ align-items: center;
 
   #questions{
     background-color: #ffc600;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 
+  #questions h1{
+    
+    color: #292e47;
+    font-size: 30px;
+    line-height: 44px;
+    margin:3rem 0rem 1rem 0rem
+  }
+  .subtitle{
+    font-size: 20px;
+    color:#6b708d;
+  }
+  .form-container{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 2rem;
+
+  }
+
+  .textfield-icon{
+    position: absolute;
+    
+    width: 30px;
+    height: 30px;
+    background-image: url(../project-assets/newsletter/icon/mail.svg);
+    background-position: 50% 50%;
+    background-size: auto;
+    
+  }
+  .text-field {
+    
+    height: 80px;
+    margin-bottom: 0px;
+    padding-left: 70px;
+    background-color: #ecf7ff;
+    color: #292e47
+  }
+
+  .w-input, .w-select {
+    display: block;
+    height: 38px;
+    padding: 8px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333333;
+    border: 1px solid #cccccc;
+}
+
+.button.primary-button.cta-button{width: 100%;
+    max-width: 100%;
+    margin-top: 20px;
+    margin-left: 0px;
+    height: 80px;
+}
+
+.button.primary-button {
+    padding: 15px 30px;
+    background-color: #072ac8;
+    font-size: 17px;
+}
+
+.w-button{
+    color: white;
+    border: 0;
+    line-height: inherit;
+    text-decoration: none;
+}
    /* SECTION QUESTIONS */
+
+   /* FOOTER */
+footer{
+    margin-top: 3rem;
+    
+}
+footer img {
+    width: 100px;
+    height: 30px;
+}
+   .foot{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin:2rem , 0rem, 1rem ,0rem;
+   }
+
+   .direction {
+    text-align: center;
+    font-size: 17px;
+    line-height: 150%;
+    color:#6b708d
+   }
+   .footer-links{
+    display: grid;
+    justify-content: space-between;
+    grid-auto-columns: 1fr;
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+    
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+   }
+
+   .footer-links a{
+    font-size: 17px;
+    text-decoration: none;
+    color:#0000EE
+   }
