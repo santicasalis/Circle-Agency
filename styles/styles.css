@@ -13,6 +13,9 @@ body{
     line-height: 20px;
     
 }
+div {
+    display: block;
+}
       /* header */
 /* header {
     
@@ -191,39 +194,41 @@ body{
   #section-one{
     display: flex;
     flex-direction: column;
-    
-    text-align:center;
+    flex-wrap: wrap;
+   text-align: center;
+   margin: 2rem;
   }
-  /* .container-section-one{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    align-self: center;
-    max-width: 700px;
-  } */
-  .container-section-one h1{
+  
+  #section-one h1{
     font-size: 30px;
-    text-align: center;
     font-weight: bold;
-    margin-top: 20px;
+    text-align: center;
+    line-height: 130%;
+    margin: 2rem;
+    padding: 0 4rem;
   }
 
 
   .circle-section-one {
     max-width: 600px;
     text-align: center;
-    font-size: 18px;
-    line-height: 1.3;
-    margin: 0 auto;
+    font-size: 17px;
+    color:#6b708d;
+    line-height: 150%;
+    margin: 2rem auto;
+  }
+  .button-section-one{
+    margin-top: 1.5rem;
   }
 
   .button-section-one a{
     text-decoration: none;
+    margin: 0rem 1rem;
   }
   .button-get{
   background-color:#072ac8;
   font-size: 17px;
-  padding: 0.5em 1em;
+  padding: 1em 1.5em;
   color: white;
   font-weight: bold;
 
@@ -233,9 +238,10 @@ body{
 }
 
 .button-see{
-    color: #6b708d;
-    font-size: 17px;
+    color: #606375;
+    font-size: 19px;
     font-weight: 800;
+    font-weight: bold
 }
 
 
@@ -244,8 +250,11 @@ body{
     text-align: center;
   }
   .hero-image{
-    width: 80%;
-    max-width: 767px;
+   
+    max-width: 100%;
+    margin-top: 4rem;
+    vertical-align: middle;
+    display: inline-block;
   }
 
   .card-2 {
@@ -256,26 +265,88 @@ body{
       /* FIN SECTION ONE */
 
       /* SECTION - LOGOS  */
+ .section-logos{
+    max-width: 1000px;
+    margin-right:auto;
+    margin-left: auto;
+    
+ }
   .logos {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    align-items: center;
-  }
-  .logos img {
+    justify-items: center;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+
+    width: 100%;
     max-width: 100%;
-    vertical-align: middle;
-    display: inline-block;
+    grid-auto-flow: row;
+    grid-column-gap: 20px;
+
   }
+  .marcas-logos{
+display: flex;
+width: 150px;
+height: 96px;
+max-height: 96px;
+max-width: 150px;
+justify-content: center;
+align-items: center;
+
+  }
+ 
 
 
   /* FIN SECTION - LOGOS  */
 
     /* SECTION RECENTS PROYECTS */
+#recent-proyects{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+#recent-proyects h2{
+    font-size: 30px;
+    color:#292e47;
+    font-weight: bold;
+}
+#recent-proyects img{
+    height: 240PX;
+    width: 100%;
 
+}
+.simplify{
+    font-size: 24px;
+    line-height: 115%;
+    font-weight: 500;
+    color: #292e47;
+    margin:30px 30px 20px
+}
+.proyect-description{
+    margin-bottom: 10px;
+    font-size: 17px;
+    font-weight: 400;
+    color: #292e47;
+    line-height: 115%
+
+}
+.proyect-link{
+    margin: 30px;
+    color: #072ac8;
+    font-size: 17px;
+    font-weight: 500;
+    text-decoration: none;
+}
   .cards{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+    text-align: center;
+    align-items: center;
+    margin: 2rem 0rem ;
   }
 
 
@@ -285,18 +356,100 @@ body{
     /* SECTION CLIENTES  */
   #clients{
     background-color: #292e47;
+    
+  }
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+  #clients h3{
+    max-width: 400px;
+    line-height: 150%;
+    color: #ecf7ff;
+    font-size: 40px;
+    text-align: center;
+    margin:2rem 0rem;
+
+  }
+  .testimonio {
+    max-width: 560px;
+    margin-right: auto;
+    margin-left: auto;
+    color: #ffc600;
+    font-size: 24px;
+    line-height: 160%;
+    font-weight: 500;
+    text-align: center;
+    margin:1rem 0rem;
+  }
+ .client{
+    display: flex;
+    align-items: center;
+    margin: 1rem 0rem;
+
+ }
+  .client-image{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-image: url(../project-assets/testimonial-section/profile.png);
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0rem 1rem;
+  }
+  
+  .client-name{
+    color: #a2d6f9;
+    font-size: 17px;
+  }
+  .client-position{
+    color: #ecf7ff;
+    font-size: 13px;
   }
 
-  #clients img{
-    height: 50px;
-  }
  
    /* FIN SECTION CLIENTES  */
 
-    /* SECTION CLIENTES  */
+    /* SECTION OUR SERVICES */
+
+#our-services h1{
+    color: #292e47;
+   text-align: center;
+}
+
+.carts-services{
+    display: grid;
+    margin-top: 70px;
+    grid-auto-columns: 1fr;
+    grid-column-gap: 40px;
+    grid-row-gap: 16px;
+}
+.icon{
+    width: 80px;
+    height: 80px;
+    margin-top: 40px;
+    margin-left: 40px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    border-radius: 50%;
+    background-color: #ecf7ff;
+    background-image: url(../project-assets/services-section/icons/1.svg);
+    background-position: 50% 50%;
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+
+
+
+ /*  FIN SECTION OUR SERVICES */
+    /* SECTION QUESTIONS  */
 
   #questions{
     background-color: #ffc600;
   }
 
-   /* SECTION CLIENTES  */
+   /* SECTION QUESTIONS */
