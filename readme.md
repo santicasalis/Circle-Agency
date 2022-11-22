@@ -20,4 +20,10 @@
 ### Martes 22/11
 
     -Darle los estilos CSS
-    -Responsive web design
+    -Responsive mobile
+
+### Miercoles 23/11
+
+    - finalizar de estilizar la ultima section y el footer
+    - realizar los html de los links externos
+    - Comenzar con javascript
