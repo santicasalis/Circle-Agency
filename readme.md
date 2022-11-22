@@ -16,3 +16,8 @@
     -Creo la estructura de archivos html, css y javascrpt
     -Creo el espacio de trabajo Trello.
     - midtermproyect
+
+### Martes 22/11
+
+    -Darle los estilos CSS
+    -Responsive web design
