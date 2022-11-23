@@ -301,54 +301,56 @@ align-items: center;
   /* FIN SECTION - LOGOS  */
 
     /* SECTION RECENTS PROYECTS */
-#recent-proyects{
-    margin-top: 2rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-}
-#recent-proyects h2{
-    font-size: 30px;
-    color:#292e47;
-    font-weight: bold;
-}
-#recent-proyects img{
-    height: 240PX;
-    width: 100%;
 
-}
-.simplify{
-    font-size: 24px;
-    line-height: 115%;
-    font-weight: 500;
-    color: #292e47;
-    margin:30px 30px 20px
-}
-.proyect-description{
-    margin-bottom: 10px;
-    font-size: 17px;
-    font-weight: 400;
-    color: #292e47;
-    line-height: 115%
-
-}
-.proyect-link{
-    margin: 30px;
-    color: #072ac8;
-    font-size: 17px;
-    font-weight: 500;
-    text-decoration: none;
-}
-  .cards{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    text-align: center;
-    align-items: center;
-    margin: 2rem 0rem ;
+    .projects-container {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: 1fr;
+      grid-column-gap: 25px;
+      grid-row-gap: 0px;
   }
+  .title{
+    color: #292e47;
+  font-size: 40px;
+  line-height: 40px;
+   margin-top: 2rem;
+   margin-bottom: 2rem;
+  }
+  
+  .project {
+      background-color: white;
+      padding-bottom: 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
 
+  }
+  
+  .project img {
+      width: 100%;
+      height: 240px;
+      max-width: 100%;
+     vertical-align: middle;
+     display: inline-block;
+  }
+  
+  .project h3 {
+      font-size: 1.3rem;
+      margin: 27px;
+  }
+  
+  .project p {
+      font-size: 1.1rem;
+      margin: 0 27px 27px 27px;
+  }
+  
+  .project a {
+      text-decoration: none;
+      font-weight: 500;
+      color: #072AC8;;
+      margin: 0 27px 27px 27px;
+  }
+  
 
   /* FIN SECTION RECENTS PROYECTS */
 
@@ -415,34 +417,84 @@ align-items: center;
    /* FIN SECTION CLIENTES  */
 
     /* SECTION OUR SERVICES */
-
-#our-services h1{
-    color: #292e47;
-   text-align: center;
+#our-services{
+  margin:2rem 8rem 2rem 8rem
 }
 
-.carts-services{
-    display: grid;
-    margin-top: 70px;
-    grid-auto-columns: 1fr;
-    grid-column-gap: 40px;
-    grid-row-gap: 16px;
-}
-.icon{
-    width: 80px;
-    height: 80px;
-    margin-top: 40px;
-    margin-left: 40px;
-    padding-bottom: 0px;
-    padding-left: 0px;
-    border-radius: 50%;
-    background-color: #ecf7ff;
-    background-image: url(../project-assets/services-section/icons/1.svg);
-    background-position: 50% 50%;
-    background-size: auto;
-    background-repeat: no-repeat;
+#our-services h2{
+  color: #292e47;
+  font-size: 40px;
+  line-height: 44px;
+   margin-top: 2rem;
+   margin-bottom: 2rem;
 }
 
+    .services-container {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: 1fr;
+      grid-column-gap: 25px;
+      grid-row-gap: 0px;
+  }
+  
+  .service {
+      background-color: white;
+      padding-bottom: 20px;
+  }
+  
+  #service-img-1 {
+      background-image: url('../project-assets/services-section/icons/1.svg');
+      background-size:46%;
+      background-position: center center;
+      background-repeat: no-repeat;
+      width: 80px;
+      height: 80px;
+      background-color: #ecf6ff;
+      border-radius: 100px;
+      margin: 34px 0 0 34px;
+  }
+  
+  #service-img-2 {
+      background-image: url('../project-assets/services-section/icons/2.svg');
+      background-size:46%;
+      background-position: center center;
+      background-repeat: no-repeat;
+      width: 80px;
+      height: 80px;
+      background-color: #ecf6ff;
+      border-radius: 100px;
+      margin: 34px 0 0 34px;
+  }
+  
+  #service-img-3 {
+      background-image: url('../project-assets/services-section/icons/3.svg');
+      background-size:46%;
+      background-position: center center;
+      background-repeat: no-repeat;
+      width: 80px;
+      height: 80px;
+      background-color: #ecf6ff;
+      border-radius: 100px;
+      margin: 34px 0 0 34px;
+  }
+  
+  .service h3 {
+      font-size: 1.3rem;
+      margin: 27px;
+  }
+  
+  .service p {
+      font-size: 1.1rem;
+      margin: 0 27px 27px 27px;
+  }
+  
+  .service a {
+      text-decoration: none;
+      font-weight: 500;
+      color: #072AC8;;
+      margin: 0 27px 27px 27px;
+  }
+  
 
 
  /*  FIN SECTION OUR SERVICES */
