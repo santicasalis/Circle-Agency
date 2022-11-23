@@ -1,0 +1,69 @@
+.form h1{
+    line-height: 110%;
+    font-size: 40px;
+    margin:2rem 0rem 2rem 2rem;
+}
+
+
+.parent{
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 2rem;
+
+}
+
+.div2{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1rem;
+   
+}
+.email{
+    display: flex;
+    flex-direction: column;
+    margin: 0rem 2rem 0rem 0rem;
+}
+
+.contact-title{
+    color: #6b708d;
+    font-size: 20px;
+    font-weight: 400;
+}
+#email , #phone{
+   width: 100%;
+    background-color: rgba(107, 112, 141, 0.1);
+    height: 70px;
+    padding-left: 20px;
+    border: 1px none #000;
+    font-size: 15px;
+    margin-top: 0.5rem;
+    }
+    
+
+#fullname , #message{
+    background-color: rgba(107, 112, 141, 0.1) ;
+    width: 80%;
+    height: 70px;
+    padding-left: 20px;
+    border: 1px none #000;
+    font-size: 15px;
+    margin-top: 1rem;
+}
+
+.div4 input {
+    width: 80%;
+    height: 80px;
+    padding: 15px 30px;
+    background-color: #072ac8;
+    font-size: 17px;
+    color: white;
+    border: 0;
+    margin-top: 1rem;
+}
+
+#message{
+    height: 200px
+}
+
+
+.div4 input:hover{background-color: #292e47}
