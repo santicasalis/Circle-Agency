@@ -26,4 +26,8 @@
 
     - finalizar de estilizar la ultima section y el footer
     - realizar los html de los links externos
-    - Comenzar con javascript
+
+### Jueves 24/11
+
+- Realizar javascript
+- Conectar con api
