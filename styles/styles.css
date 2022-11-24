@@ -344,7 +344,10 @@ align-items: center;
       grid-template-rows: 1fr;
       grid-column-gap: 25px;
       grid-row-gap: 0px;
-      
+      /* display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      */
   }
   .title{
     color: #292e47;
@@ -407,6 +410,7 @@ align-items: center;
   #clients{
     background-color: #292e47;
     margin-top: 3rem;
+    position: relative;
     
   }
 .container{
@@ -467,7 +471,7 @@ align-items: center;
     width: 150px;
     height: 150px;
     position: absolute;
-    left: 72%;
+    left: 80%;
     bottom: 15%;
     right: auto;
     bottom: auto;
@@ -477,7 +481,7 @@ align-items: center;
     width: 150px;
     height: 150px;
     position: absolute;
-    top: 210%;
+    top: 5%;
    
  
 }
@@ -485,8 +489,8 @@ align-items: center;
     width: 150px;
     height: 150px;
     position: absolute;
-    top:210%;
-    right:20%;
+    top:5%;
+    right:5%;
     bottom: auto;
     left: auto;
 }

@@ -1,6 +1,6 @@
 # Mid Term Proyect
 
-    Realizo el proyecto de la mitad del curso de IronHack
+    Realizo una pagina web con Html , Css y javascript vainilla
 
 ## 🔗 Links
 
@@ -33,3 +33,4 @@
 
 - Realizar javascript
 - Conectar con api
+- Enviar info del Form
