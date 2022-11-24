@@ -14,7 +14,7 @@ fetch('https://jsonplaceholder.typicode.com/posts')
           <img src="project-assets/projects-section/${index+1}.jpg" alt="">
           <h3>${post.title}</h3>
           <p>${post.body}</p>
-          <a href="articles/Simplify.html">Learn More</a>
+          <a href="Simplify.html">Learn More</a>
           </div>
           `
         
