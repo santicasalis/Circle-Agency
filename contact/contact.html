@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="../styles/styles.css">
     <link rel="stylesheet" href="../styles/form.css">
     <link rel="icon" href="https://uploads-ssl.webflow.com/img/favicon.ico">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10/dist/sweetalert2.all.min.js"></script>
+    
+    
 </head>
 <body>
     <section class="top-nav">
@@ -28,9 +31,9 @@
       
       <section class="form">
     <h1>Contact Us</h1>
-<form class="parent"action="">
+<form id="submitData" class="parent"action="">
  <div class="div1"><label for="fullname"class="contact-title" > Full Name *</label><br>
- <input type="text" required placeholder="Enter your full name"name="fullname" id="fullname"><br>
+ <input type="text"  placeholder="Enter your full name"name="fullname" id="fullname"><br>
 </div>
  
 <div class="div2">
@@ -45,11 +48,11 @@
 </div>
 <div class="div3">
  <label for="message"class="contact-title">Message *</label><br>
-<textarea required name="message" placeholder="Write your message here..." id="message" cols="30" rows="15"></textarea><br>
+<textarea  name="message" placeholder="Write your message here..." id="message" cols="30" rows="15"></textarea><br>
  </div>
 
 <div class="div4">
-<input type="submit" value="Submit">
+<input type="submit" value="Submit" >
 </div>
 
 </form>
@@ -82,6 +85,7 @@
     </div>
         
     </footer>
+<script src="../scripts/contactForm.js"></script>
 
 </body>
 </html>

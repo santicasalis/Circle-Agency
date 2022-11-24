@@ -4,6 +4,8 @@
 
 ## 🔗 Links
 
+[Vercel web](https://midproyect-6z41-q7u0k9n9x-santicasalis.vercel.app/)
+
 [Git Hub](https://github.com/santicasalis/midproyect)
 
 [Trello](https://trello.com/invite/b/cUKvF9rN/ATTI07deb1ffe868f4e1b43e85a2eb9363d1072BBC99/kanban-template)
