@@ -167,8 +167,14 @@ main,section, footer {
      .menu > li:not(:last-child) {
        border-bottom: 1px solid #444;
      }
-     
-  
+      .top-nav{
+        display: flex;
+        justify-content: space-between;
+      
+      }
+      .menu-button-container{
+        margin-left: 50%;
+      }
    }
    
       
@@ -344,6 +350,7 @@ align-items: center;
       grid-template-rows: 1fr;
       grid-column-gap: 25px;
       grid-row-gap: 0px;
+      margin: 0rem 2rem;
       /* display: flex;
       flex-direction: row;
       justify-content: space-around;
@@ -409,8 +416,9 @@ align-items: center;
     /* SECTION CLIENTES  */
   #clients{
     background-color: #292e47;
-    margin-top: 3rem;
+   
     position: relative;
+    margin:3rem 2rem
     
   }
 .container{
@@ -418,6 +426,7 @@ align-items: center;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
+    
 }
 
   #clients h3{
@@ -522,8 +531,7 @@ align-items: center;
   color: #292e47;
   font-size: 40px;
   line-height: 44px;
-   margin-top: 2rem;
-   margin-bottom: 2rem;
+   margin:2rem 2rem;
    text-align:initial
 }
 

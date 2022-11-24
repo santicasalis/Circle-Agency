@@ -4,7 +4,7 @@
 
 ## 🔗 Links
 
-[Vercel web](https://midproyect-6z41-q7u0k9n9x-santicasalis.vercel.app/)
+[Vercel web](https://midproyect-6z41.vercel.app/index.html)
 
 [Git Hub](https://github.com/santicasalis/midproyect)
 
