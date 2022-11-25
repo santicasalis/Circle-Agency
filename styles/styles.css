@@ -252,19 +252,19 @@ main,section, footer {
   .card-1{
     position: absolute;
     left: 19%;
-    bottom: 15%;
+    bottom: -15%;
     right: auto;
-    bottom: auto;
-    max-width: 30%;
+    
+    max-width: 25%;
   }
 
   .card-2 {
     position: absolute;
-    right:10%;
-    bottom: -55%;
+    right:15%;
+    bottom: -80%;
     top: auto;
     left: auto;
-    max-width: 30%;
+    max-width: 25%;
   }
 
   @media (max-width: 700px) {

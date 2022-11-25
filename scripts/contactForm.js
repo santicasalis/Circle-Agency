@@ -47,7 +47,7 @@ const sendForm = (preventForm) => {
                 icon: 'success',
                 title: `The form its okey ${fullname} `,
                 showConfirmButton: true,
-                timer: 1500
+                timer: 2500
             })
                 .then(() => {
                    formulario.reset()
