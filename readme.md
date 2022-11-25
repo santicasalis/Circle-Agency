@@ -34,3 +34,8 @@
 - Realizar javascript
 - Conectar con api
 - Enviar info del Form
+
+### Viernes 25/11
+
+- Resolver detalles de Js y Css
+- Realizar presentacion

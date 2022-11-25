@@ -514,7 +514,12 @@ align-items: center;
   .memoji-1,.memoji-2,.memoji-3,.memoji-4{
     display:none
   }
-
+  #clients{
+    margin:0rem 0rem
+  }
+  .testimonio{
+padding: 0rem 3rem;
+  }
 }
 
 
@@ -595,8 +600,9 @@ align-items: center;
   
   .service a {
       text-decoration: none;
-      font-weight: 500;
+      font-weight: 600;
       color: #072AC8;;
+      font-size: 17px;
       margin: 0 27px 27px 27px;
   }
   

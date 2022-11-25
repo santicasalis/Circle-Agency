@@ -23,7 +23,14 @@ const sendForm = (preventForm) => {
     fetch("https://jsonplaceholder.typicode.com/posts", {
         method: 'POST',
         
-        body: JSON.stringify({ title: fullname, body: message, userId: 1 }),
+        body: JSON.stringify({
+            title: fullname,
+            body: message,
+            userId: 1,
+            phone: phone,
+            email: email
+
+        }),
         
         headers: {
             'Content-type': 'application/json; charset=UTF-8',
